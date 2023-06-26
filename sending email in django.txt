@@ -1,0 +1,7 @@
+############# ارسال ایمیل
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_PORT = 465 # For SSL
+EMAIL_USE_SSL = True
+EMAIL_HOST_USER = 'madval1369@gmail.com'
+EMAIL_HOST_PASSWORD = "rwdfntxebjstxfig"
